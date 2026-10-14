@@ -1,0 +1,10 @@
+{
+  "project": "ANTHIAS",
+  "category": "CONSUMER_ELECTRONICS",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CONSUMER_ELECTRONICS\\ANTHIAS",
+  "status": "failed",
+  "reason": "unreadable BENCH.json: 'metrics'",
+  "files_count": null,
+  "lines_of_code": null,
+  "sha": null
+}
