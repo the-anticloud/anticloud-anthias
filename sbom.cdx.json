@@ -1,0 +1,291 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:598d71c7-ddbc-5452-bee9-61d539f65946",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T17:14:52Z",
+    "component": {
+      "type": "application",
+      "name": "ANTHIAS",
+      "version": "6129fbf22c3f",
+      "bom-ref": "pkg:generic/anticloud/ANTHIAS@6129fbf22c3f",
+      "purl": "pkg:generic/anticloud/ANTHIAS@6129fbf22c3f",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "6129fbf22c3f9505c3d1969d840c3e9d80726baa"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/Screenly/anthias"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@reduxjs/toolkit",
+      "version": "^2.11.0",
+      "purl": "pkg:npm/@reduxjs/toolkit@^2.11.0",
+      "bom-ref": "npm/@reduxjs/toolkit@^2.11.0"
+    },
+    {
+      "type": "library",
+      "name": "@xterm/addon-fit",
+      "version": "^0.11.0",
+      "purl": "pkg:npm/@xterm/addon-fit@^0.11.0",
+      "bom-ref": "npm/@xterm/addon-fit@^0.11.0"
+    },
+    {
+      "type": "library",
+      "name": "@xterm/addon-web-links",
+      "version": "^0.12.0",
+      "purl": "pkg:npm/@xterm/addon-web-links@^0.12.0",
+      "bom-ref": "npm/@xterm/addon-web-links@^0.12.0"
+    },
+    {
+      "type": "library",
+      "name": "@xterm/xterm",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@xterm/xterm@^6.0.0",
+      "bom-ref": "npm/@xterm/xterm@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "bootstrap",
+      "version": "^5.3.8",
+      "purl": "pkg:npm/bootstrap@^5.3.8",
+      "bom-ref": "npm/bootstrap@^5.3.8"
+    },
+    {
+      "type": "library",
+      "name": "classnames",
+      "version": "^2.5.1",
+      "purl": "pkg:npm/classnames@^2.5.1",
+      "bom-ref": "npm/classnames@^2.5.1"
+    },
+    {
+      "type": "library",
+      "name": "i18next",
+      "version": "^25.8.0",
+      "purl": "pkg:npm/i18next@^25.8.0",
+      "bom-ref": "npm/i18next@^25.8.0"
+    },
+    {
+      "type": "library",
+      "name": "i18next-browser-languagedetector",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/i18next-browser-languagedetector@^8.0.0",
+      "bom-ref": "npm/i18next-browser-languagedetector@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/react@^19.0.0",
+      "bom-ref": "npm/react@^19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/react-dom@^19.0.0",
+      "bom-ref": "npm/react-dom@^19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-i18next",
+      "version": "^16.5.0",
+      "purl": "pkg:npm/react-i18next@^16.5.0",
+      "bom-ref": "npm/react-i18next@^16.5.0"
+    },
+    {
+      "type": "library",
+      "name": "react-icons",
+      "version": "^5.5.0",
+      "purl": "pkg:npm/react-icons@^5.5.0",
+      "bom-ref": "npm/react-icons@^5.5.0"
+    },
+    {
+      "type": "library",
+      "name": "react-redux",
+      "version": "^9.1.0",
+      "purl": "pkg:npm/react-redux@^9.1.0",
+      "bom-ref": "npm/react-redux@^9.1.0"
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/react-router-dom@^7.1.0",
+      "bom-ref": "npm/react-router-dom@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "sweetalert2",
+      "version": "^11.26.0",
+      "purl": "pkg:npm/sweetalert2@^11.26.0",
+      "bom-ref": "npm/sweetalert2@^11.26.0"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^9.39.2",
+      "purl": "pkg:npm/@eslint/js@^9.39.2",
+      "bom-ref": "npm/@eslint/js@^9.39.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/bootstrap",
+      "version": "^5.2.0",
+      "purl": "pkg:npm/@types/bootstrap@^5.2.0",
+      "bom-ref": "npm/@types/bootstrap@^5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/@types/react@^19.0.0",
+      "bom-ref": "npm/@types/react@^19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/@types/react-dom@^19.0.0",
+      "bom-ref": "npm/@types/react-dom@^19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "css-loader",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/css-loader@^7.1.0",
+      "bom-ref": "npm/css-loader@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.39.2",
+      "purl": "pkg:npm/eslint@^9.39.2",
+      "bom-ref": "npm/eslint@^9.39.2"
+    },
+    {
+      "type": "library",
+      "name": "mini-css-extract-plugin",
+      "version": "^2.9.0",
+      "purl": "pkg:npm/mini-css-extract-plugin@^2.9.0",
+      "bom-ref": "npm/mini-css-extract-plugin@^2.9.0"
+    },
+    {
+      "type": "library",
+      "name": "sass",
+      "version": "^1.89.0",
+      "purl": "pkg:npm/sass@^1.89.0",
+      "bom-ref": "npm/sass@^1.89.0"
+    },
+    {
+      "type": "library",
+      "name": "sass-loader",
+      "version": "^16.0.0",
+      "purl": "pkg:npm/sass-loader@^16.0.0",
+      "bom-ref": "npm/sass-loader@^16.0.0"
+    },
+    {
+      "type": "library",
+      "name": "ts-loader",
+      "version": "^9.5.0",
+      "purl": "pkg:npm/ts-loader@^9.5.0",
+      "bom-ref": "npm/ts-loader@^9.5.0"
+    },
+    {
+      "type": "library",
+      "name": "tsconfig-paths-webpack-plugin",
+      "version": "^4.2.0",
+      "purl": "pkg:npm/tsconfig-paths-webpack-plugin@^4.2.0",
+      "bom-ref": "npm/tsconfig-paths-webpack-plugin@^4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.9.0",
+      "purl": "pkg:npm/typescript@^5.9.0",
+      "bom-ref": "npm/typescript@^5.9.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "^8.55.0",
+      "purl": "pkg:npm/typescript-eslint@^8.55.0",
+      "bom-ref": "npm/typescript-eslint@^8.55.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack",
+      "version": "^5.104.0",
+      "purl": "pkg:npm/webpack@^5.104.0",
+      "bom-ref": "npm/webpack@^5.104.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack-cli",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/webpack-cli@^6.0.0",
+      "bom-ref": "npm/webpack-cli@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack-merge",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/webpack-merge@^6.0.0",
+      "bom-ref": "npm/webpack-merge@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource/plus-jakarta-sans",
+      "version": "^5.2.8",
+      "purl": "pkg:npm/@fontsource/plus-jakarta-sans@^5.2.8",
+      "bom-ref": "npm/@fontsource/plus-jakarta-sans@^5.2.8"
+    },
+    {
+      "type": "library",
+      "name": "@fortawesome/fontawesome-free",
+      "version": "^7.2.0",
+      "purl": "pkg:npm/@fortawesome/fontawesome-free@^7.2.0",
+      "bom-ref": "npm/@fortawesome/fontawesome-free@^7.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/cli",
+      "version": "^4.2.4",
+      "purl": "pkg:npm/@tailwindcss/cli@^4.2.4",
+      "bom-ref": "npm/@tailwindcss/cli@^4.2.4"
+    },
+    {
+      "type": "library",
+      "name": "@types/bun",
+      "version": "^1.3.14",
+      "purl": "pkg:npm/@types/bun@^1.3.14",
+      "bom-ref": "npm/@types/bun@^1.3.14"
+    },
+    {
+      "type": "library",
+      "name": "node-html-parser",
+      "version": "^9.0.0",
+      "purl": "pkg:npm/node-html-parser@^9.0.0",
+      "bom-ref": "npm/node-html-parser@^9.0.0"
+    }
+  ]
+}
